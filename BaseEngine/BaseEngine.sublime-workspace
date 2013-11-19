@@ -32,19 +32,21 @@
 	},
 	"file_history":
 	[
+		"/A/Git/gamedev/BaseEngine/js/GameManager.js",
+		"/A/Git/gamedev/BaseEngine/js/Player.js",
+		"/A/Git/gamedev/BaseEngine/js/InputManager.js",
+		"/A/Git/gamedev/BaseEngine/js/SpriteInfo.js",
+		"/A/Git/gamedev/BaseEngine/scripts/genSpriteInfo.py",
+		"/A/Git/gamedev/BaseEngine/js/SpriteManager.js",
+		"/A/Git/gamedev/BaseEngine/README.txt",
+		"/A/Git/gamedev/BaseEngine/index.html",
+		"/A/Git/gamedev/BaseEngine/js/eKeys.js",
+		"/A/Git/gamedev/BaseEngine/res/spriteInfo.txt",
 		"/A/Git/gamedev/BaseEngine/js/eSprites.js",
 		"/A/Git/gamedev/BaseEngine/js/eSpriteInfo.js",
-		"/A/Git/gamedev/BaseEngine/js/eKeys.js",
-		"/A/Git/gamedev/BaseEngine/js/SpriteManager.js",
-		"/A/Git/gamedev/BaseEngine/js/SpriteInfo.js",
 		"/A/Git/gamedev/BaseEngine/js/Sprite.js",
-		"/A/Git/gamedev/BaseEngine/js/Player.js",
 		"/A/Git/gamedev/BaseEngine/js/main.js",
-		"/A/Git/gamedev/BaseEngine/js/InputManager.js",
 		"/A/Git/gamedev/BaseEngine/js/GameObject.js",
-		"/A/Git/gamedev/BaseEngine/scripts/genSpriteInfo.py",
-		"/A/Git/gamedev/BaseEngine/index.html",
-		"/A/Git/gamedev/BaseEngine/js/GameManager.js",
 		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
 	],
@@ -64,6 +66,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"png",
+			"jpg",
 			"tab"
 		],
 		"highlight": true,
@@ -128,6 +132,30 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"game",
+				"js/GameManager.js"
+			],
+			[
+				"player",
+				"js/Player.js"
+			],
+			[
+				"inputmana",
+				"js/InputManager.js"
+			],
+			[
+				"ge",
+				"scripts/genSpriteInfo.py"
+			],
+			[
+				"sp",
+				"res/spriteInfo.txt"
+			],
+			[
+				"spriteman",
+				"js/SpriteManager.js"
+			]
 		],
 		"width": 0.0
 	},
