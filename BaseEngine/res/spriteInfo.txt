@@ -4,7 +4,7 @@
 # eSprite name, filename, frame width, frame height, number of frames
 #
 NONE, none, 0, 0, 0
-PLAYER_LEFT, player_left.jpg, 64, 64, 4
-PLAYER_RIGHT, player_right.jpg, 64, 64, 4
-PLAYER_UP, player_up.jpg, 64, 64, 4
-PLAYER_DOWN, player_down.jpg, 64, 64, 4
+PLAYER_LEFT, player_left.png, 64, 64, 4
+PLAYER_RIGHT, player_right.png, 64, 64, 4
+PLAYER_UP, player_up.png, 64, 64, 4
+PLAYER_DOWN, player_down.png, 64, 64, 4

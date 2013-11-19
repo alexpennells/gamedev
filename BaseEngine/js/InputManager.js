@@ -13,37 +13,17 @@ var InputManager = {
     // Binds the key press and key up events to update the pressedKeys array.
     bindKeys: function () {
         $(document).keydown(function (e) {
-            switch (e.which) {
-                case eKeys.UP:
-                    InputManager.pressedKeys[eKeys.UP] = true;
-                    break;
-                case eKeys.DOWN:
-                    InputManager.pressedKeys[eKeys.DOWN] = true;
-                    break;
-                case eKeys.LEFT:
-                    InputManager.pressedKeys[eKeys.LEFT] = true;
-                    break;
-                case eKeys.RIGHT:
-                    InputManager.pressedKeys[eKeys.RIGHT] = true;
-                    break;
+            try {
+                InputManager.pressedKeys[e.which] = true;
             }
+            catch (err) {}
         });
 
         $(document).keyup(function (e) {
-            switch (e.which) {
-                case eKeys.UP:
-                    InputManager.pressedKeys[eKeys.UP] = false;
-                    break;
-                case eKeys.DOWN:
-                    InputManager.pressedKeys[eKeys.DOWN] = false;
-                    break;
-                case eKeys.LEFT:
-                    InputManager.pressedKeys[eKeys.LEFT] = false;
-                    break;
-                case eKeys.RIGHT:
-                    InputManager.pressedKeys[eKeys.RIGHT] = false;
-                    break;
+            try {
+                InputManager.pressedKeys[e.which] = false;
             }
+            catch (err) {}
         });
     },
 
