@@ -64,7 +64,7 @@ var SpriteManager = {
     // Note: This function is not called within the scope of SpriteManager.
     checkAllSpritesLoaded: function() {
         if (SpriteManager.imagesLoading != 0)
-            setTimeout(SpriteManager.checkAllSpritesLoaded, fps);
+            setTimeout(SpriteManager.checkAllSpritesLoaded, GameManager.fps);
         else
             GameManager.startRoom();
     },
