@@ -1,0 +1,36 @@
+<project name="PacMan" default="jar" basedir=".">
+    <description>A Legend of Zelda styled Pac-Man game.</description>
+
+    <property name="src" location="src"/>
+    <property name="build" location="build"/>
+    <property name="docs" location="docs"/>
+
+    <target name="init">
+        <mkdir dir="${build}"/>
+        <mkdir dir="${docs}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac includeantruntime="false" srcdir="${src}" destdir="${build}"/>
+    </target>
+
+    <target name="jar" depends="compile" description="Generates a distributable JAR file." >
+        <jar destfile="CIS3760_PacMan.jar" basedir="${build}">
+            <manifest>
+                <attribute name="Main-Class" value="pacman.Main"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="javadoc" depends="jar" description="Generates the JavaDocs for the Pac-Man game.">
+        <javadoc sourcepath="${src}" destdir="${docs}"/>
+    </target>
+
+    <target name="all" depends="javadoc">
+        <java jar="CIS3760_PacMan.jar" fork="true"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>  
+</project>
