@@ -16,11 +16,6 @@ var Paddle = function(x, y, upKey, downKey) {
 Paddle.prototype = new GameObject();
 Paddle.prototype.constructor = Paddle;
 
-// By giving a definition to this function, we have overridden the draw
-// function in the GameObject class.
-/*Paddle.prototype.draw = function (context) {
-}*/
-
 // Handles the input from the user to move the paddle.
 Paddle.prototype.update = function () {
 	//Move the object based on the player input.
