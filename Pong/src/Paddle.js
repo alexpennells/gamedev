@@ -18,10 +18,8 @@ Paddle.prototype.constructor = Paddle;
 
 // By giving a definition to this function, we have overridden the draw
 // function in the GameObject class.
-Paddle.prototype.draw = function (context) {
-	context.fillStyle = 'white';
-	context.fillRect(this.x, this.y, this.width, this.height);
-}
+/*Paddle.prototype.draw = function (context) {
+}*/
 
 // Handles the input from the user to move the paddle.
 Paddle.prototype.update = function () {
